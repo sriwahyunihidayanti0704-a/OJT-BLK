@@ -88,4 +88,4 @@ if st.button("Prediksi Gaji"):
     st.success(f"### Estimasi Gaji Pertama: Rp {predicted_salary[0] * 1_000_000:,.2f}")
     st.write("*(Prediksi dalam jutaan Rupiah)*")
     st.info("Catatan: Prediksi ini adalah estimasi berdasarkan model yang dilatih. Hasil sebenarnya dapat bervariasi.") 
-    remove sklearn dependency 
+    clean requirements remove sklearn and numpy
