@@ -1,4 +1,7 @@
 import streamlit as st
+
+st.write("APP STARTED") 
+import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
