@@ -1,7 +1,2 @@
-streamlit>=1.40.0
-#... biarkan library lainnya tetap ada ...pandas
-numpy
-scikit-learn
 streamlit
-xgboost
-altair==4.2.2
+pandas
