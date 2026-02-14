@@ -36,7 +36,6 @@ expected_columns_order = [
 st.set_page_config(page_title="Prediksi Gaji Pertama", layout="centered")
 st.title("💰 Prediksi Gaji Pertama Lulusan Pelatihan Vokasi")
 st.write("Aplikasi ini memprediksi gaji pertama (dalam jutaan Rupiah) berdasarkan profil peserta pelatihan.")
-st.markdown("--- # Ini adalah contoh saja dan bukan nilai prediksi actual, jika ingin nilai actual silahkan jalankan aplikasi streamlit Anda sendiri # ---")
 
 st.header("Masukkan Informasi Peserta")
 
