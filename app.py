@@ -1,10 +1,9 @@
-import streamlit as st
-
-st.write("APP STARTED") 
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+from sklearn.preprocessing import LabelEncoder, StandardScaler # Ensure StandardScaler is imported
 
 # --- 1. Muat Model dan Scaler yang Telah Disimpan ---
 
@@ -50,7 +49,6 @@ jurusan = st.selectbox("Jurusan Pelatihan", list(jurusan_mapping.keys()), index=
 jenis_kelamin = st.radio("Jenis Kelamin", ['Laki-laki', 'Wanita'], index=1)
 status_bekerja = st.radio("Status Bekerja Saat Ini", ['Sudah Bekerja', 'Belum Bekerja'], index=0)
 
-st.markdown("--- # Ini adalah contoh saja dan bukan nilai prediksi actual, jika ingin nilai actual silahkan jalankan aplikasi streamlit Anda sendiri # ---")
 
 if st.button("Prediksi Gaji"):
     # Buat dictionary dari input pengguna
