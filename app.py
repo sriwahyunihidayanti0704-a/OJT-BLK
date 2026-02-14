@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-from sklearn.preprocessing import LabelEncoder, StandardScaler # Ensure StandardScaler is imported
+
 
 # --- 1. Muat Model dan Scaler yang Telah Disimpan ---
 
